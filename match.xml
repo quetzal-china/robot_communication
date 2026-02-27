@@ -1,0 +1,10 @@
+<match>
+    <!-- 第一轮投篮任务 -->
+    <step id="1" target="ball_1" action="pick_up" />
+    <step id="2" target="three_point_line" action="dribble" />
+    <step id="3" target="hoop_red" action="shoot" />
+    <!-- 第二轮投篮任务 -->
+    <step id="4" target="ball_2" action="pick_up" />
+    <step id="5" target="free_throw_line" action="dribble" />
+    <step id="6" target="hoop_blue" action="shoot" />
+</match>

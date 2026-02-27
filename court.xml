@@ -1,0 +1,13 @@
+<court>
+    <!-- 篮球坐标 -->
+    <object name="ball_1" x="2.5" y="3.0" />
+    <object name="ball_2" x="7.0" y="8.5" />
+
+    <!-- 战术位置 -->
+    <object name="three_point_line" x="10.0" y="7.5" />
+    <object name="free_throw_line" x="8.0" y="7.5" />
+
+    <!-- 球筐位置 -->
+    <object name="hoop_red" x="14.0" y="7.5" />
+    <object name="hoop_blue" x="0.0" y="7.5" />
+</court>
