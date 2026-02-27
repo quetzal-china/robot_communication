@@ -1,5 +1,0 @@
-# 开始比赛服务 - 攻击机器人请求，裁判响应
-bool request_start       # 请求开始比赛
----
-bool success             # 是否成功开始
-int32_t message_code      # 响应消息代码 (0:成功, 1:已在进行中, 2:未准备好)

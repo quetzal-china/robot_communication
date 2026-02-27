@@ -1,0 +1,11 @@
+# 获取任务清单服务 - Voice节点提供服务，Master节点请求
+# Request
+int32_t dummy    # 占位参数（服务必须有请求部分）(AI说的这样写嗷)
+---
+# Response
+# 使用string数组便于终端直接显示任务名称，避免enum到string的映射
+# 任务数量少(6个)，string的性能开销可忽略
+string[] target_names    # 目标名称列表 (如 "ball_1", "hoop_red")
+string[] action_names    # 动作名称列表 (如 "pick_up", "shoot")
+bool success             # 是否成功获取
+int32_t task_count       # 任务数量

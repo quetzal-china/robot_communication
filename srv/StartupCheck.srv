@@ -1,0 +1,7 @@
+# 启动确认服务 - 各节点提供服务，Master节点请求确认启动状态
+# Request
+int32_t node_id    # 请求者节点ID (NodeID枚举)
+---
+# Response
+bool ready         # 是否已就绪
+int32_t status     # 启动状态 (StartupStatus枚举)

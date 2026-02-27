@@ -1,0 +1,9 @@
+# 获取坐标服务 - Vision节点提供服务，Master节点请求
+# Request
+string target_name    # 目标名称 (如 "ball_1", "hoop_red")
+# 使用string便于直接传入任务中的目标名称，无需enum映射
+---
+# Response
+float32 x        # 目标x坐标
+float32 y        # 目标y坐标
+bool found       # 是否找到该目标
